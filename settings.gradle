@@ -10,7 +10,10 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
+    maven { url "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/"}
   }
 }
 rootProject.name = "BaseLib"
 include ':app'
+include ':common'
+include ':basic'
